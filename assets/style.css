@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgb(43, 43, 43);
   color: white;
@@ -20,6 +24,8 @@ nav a {
 nav {
   background-color: hsl(202, 85%, 61%);
   border-radius: 0 0 10px 10px;
+  border: white;
+  border-style: ridge;
 }
 
 ul {
@@ -34,7 +40,7 @@ ul li {
 }
 
 h1 {
-  margin-top: 100px;
+  padding-top: 100px;
   margin-bottom: 50px;
 }
 
@@ -42,21 +48,41 @@ h1 {
   max-width: 20%;
   height: auto;
   border-radius: 10px;
+  border: hsl(202, 85%, 61%);
+  border-style: ridge;
 }
 
 #about-me,
 #my-work,
 #contact-me {
   background-color: rgb(90, 90, 90);
-  padding: 20px;
-  margin-top: 60px;
+  padding: 50px;
+  border: hsl(202, 85%, 61%);
+  border-style: ridge;
   border-radius: 10px;
+  max-width: 900px;
+  margin: 50px auto;
 }
 
 #my-work {
   display: inline-block;
 }
 
+#thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
 #my-work img {
-  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: hsl(202, 85%, 61%);
+  border-style: ridge;
+  max-width: 90%;
+}
+
+footer {
+  margin-top: 700px;
 }
