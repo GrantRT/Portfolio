@@ -9,16 +9,12 @@ body {
   text-align: center;
 }
 
+/* start of nav bar styling */
 header {
   position: fixed;
   width: 100%;
   left: 0;
   top: 0;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
 }
 
 nav {
@@ -27,6 +23,17 @@ nav {
   border: white;
   border-style: ridge;
 }
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(90, 90, 90);
+}
+
+/* end of nav bar styling */
 
 ul {
   display: inline-flex;
@@ -80,15 +87,8 @@ h2 {
 
 #showpiece {
   margin: 0 auto;
-  text-align: center;
+  /* text-align: center; */
   min-width: 50%;
-}
-
-#thumbnails {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 10%;
 }
 
 #my-work img {
@@ -99,8 +99,37 @@ h2 {
   max-width: 90%;
 }
 
+#my-work img:hover {
+  border: white;
+  border-radius: 5px;
+  border-style: ridge;
+}
+
+#thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10%;
+}
+
 #thumbnails img {
   max-width: 30vw;
+}
+
+#contact-me a {
+  color: hsl(202, 85%, 61%);
+  text-decoration: none;
+  font-size: 80px;
+}
+
+#contact-me a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 400px) {
+  #contact-me a {
+    font-size: 40px;
+  }
 }
 
 footer {
