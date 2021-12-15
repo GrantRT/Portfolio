@@ -50,7 +50,7 @@ h2 {
 
 #profile-image {
   max-width: 200px;
-  min-width: 200px;
+  min-width: 150px;
   height: auto;
   border-radius: 10px;
   border: hsl(202, 85%, 61%);
