@@ -81,20 +81,26 @@ h2 {
 #showpiece {
   margin: 0 auto;
   text-align: center;
+  min-width: 50%;
 }
 
 #thumbnails {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  padding: 10%;
 }
 
 #my-work img {
-  margin-bottom: 20px;
+  margin: 15px;
   border-radius: 5px;
   border: hsl(202, 85%, 61%);
   border-style: ridge;
   max-width: 90%;
+}
+
+#thumbnails img {
+  max-width: 30vw;
 }
 
 footer {
