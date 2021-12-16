@@ -4,7 +4,8 @@
   --box-color: #5a5a5a;
   --secondary-colour: #47b2f0;
   --font-color: #ffffff;
-  --border-style: ridge;
+  --border-style: groove;
+  --border-radius: 10px;
 }
 
 /* scrolling transition when clicking links */
@@ -72,9 +73,9 @@ h2 {
   max-width: 200px;
   min-width: 150px;
   height: auto;
-  border-radius: 10px;
+  border-radius: var(--border-radius);
   border: var(--secondary-colour);
-  border-style: ridge;
+  border-style: var(--border-style);
   margin: 0 auto;
 }
 
@@ -87,8 +88,8 @@ h2 {
   background-color: var(--box-color);
   padding: 50px;
   border: var(--secondary-colour);
-  border-style: ridge;
-  border-radius: 10px;
+  border-style: var(--border-style);
+  border-radius: var(--border-radius);
   max-width: 900px;
   margin: 50px auto;
 }
@@ -104,17 +105,17 @@ h2 {
 
 #my-work img {
   margin: 15px;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   border: var(--secondary-colour);
-  border-style: ridge;
+  border-style: var(--border-style);
   max-width: 90%;
 }
 
 /* colour of border changes when hovering over the project images */
 #my-work img:hover {
   border: var(--font-color);
-  border-radius: 5px;
-  border-style: ridge;
+  border-radius: 10px;
+  border-style: var(--border-style);
 }
 
 #thumbnails {
