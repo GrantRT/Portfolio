@@ -126,7 +126,7 @@ h2 {
 }
 
 #thumbnails img {
-  max-width: 30vw;
+  min-width: 30vw;
 }
 
 #contact-me a {
