@@ -28,7 +28,7 @@ I created my portfolio with the following features:
 
 https://grantrt.github.io/Portfolio/
 
-## Screenshot
+## Screenshots
 
 ![image](https://user-images.githubusercontent.com/93350224/154683500-e7391a1e-048d-4b89-83c8-afec793c588e.png)
 ![image](https://user-images.githubusercontent.com/93350224/154683614-823c30d1-54bb-4dce-a7a5-34de4bbf261c.png)
